@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STYLEO CEYLON | Elevate Every Moment — Luxury Fashion &amp; Lifestyle</title>
+    <meta
+      name="description"
+      content="STYLEO Ceylon: Modern luxury fashion, handloom blazers, artisanal linen, and certified Ceylon sapphire jewelry. Islandwide delivery across Sri Lanka with Cash on Delivery and Koko."
+    />
+
+    <!-- Google Fonts: Montserrat (Headlines) & Open Sans (Body) per 2025 Standards -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Skip to Content for Accessibility -->
+    <a href="#catalog" class="skip-link">Skip to collection</a>
+
+    <!-- Top Announcement Strip (Real SVG Icons, No Emojis) -->
+    <div class="top-announcement-bar">
+      <div class="container announcement-content">
+        <div class="announcement-item">
+          <svg class="announcement-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="1" y="3" width="15" height="13" />
+            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+            <circle cx="5.5" cy="18.5" r="2.5" />
+            <circle cx="18.5" cy="18.5" r="2.5" />
+          </svg>
+          <span><strong>Free Islandwide Delivery</strong> on orders over Rs. 8,500</span>
+        </div>
+        <span class="bullet-sep hide-mobile">•</span>
+        <div class="announcement-item hide-mobile">
+          <svg class="announcement-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="5" width="20" height="14" rx="2" />
+            <line x1="2" y1="10" x2="22" y2="10" />
+          </svg>
+          <span>Cash on Delivery &amp; Koko Pay in 3 Available</span>
+        </div>
+        <span class="bullet-sep hide-mobile">•</span>
+        <div class="announcement-item">
+          <button id="topWhatsAppBtn" class="top-wa-btn" title="Open WhatsApp Support">
+            <svg class="announcement-icon" width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.5c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.71 4.3 3.8 2.52 1.09 2.52.73 2.98.69.45-.04 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.23-.19-.48-.31z"/>
+            </svg>
+            <span>WhatsApp: <strong>+94 77 123 4567</strong></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Landmark: <header> & <nav> Navigation Bar -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- Brand Logo -->
+        <a href="#" class="brand-logo" aria-label="STYLEO Ceylon Homepage">
+          <span class="logo-title">STYLEO</span>
+          <span class="logo-sub">CEYLON</span>
+        </a>
+
+        <!-- Desktop Navigation (Micro-components) -->
+        <nav id="siteNav" class="site-nav" aria-label="Primary site navigation">
+          <ul class="nav-links-list">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#featured" class="nav-link">Featured</a></li>
+            <li><a href="#catalog" class="nav-link">New Arrivals</a></li>
+            <li><a href="#bestsellers" class="nav-link">Best Sellers</a></li>
+            <li><a href="#dashboard" class="nav-link">Track Order</a></li>
+            <li class="mobile-nav-account">
+              <button id="mobileAccountBtn" class="mobile-account-btn" aria-label="Sign In to STYLEO Circle">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+                <span id="mobileAccountBtnText">Sign In</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Header Actions: Search, Account, Wishlist & Cart -->
+        <div class="header-actions">
+          <button id="searchTriggerBtn" class="header-icon-btn" aria-label="Search collection" title="Search">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+          </button>
+
+          <button id="wishlistCountBtn" class="header-icon-btn with-badge" aria-label="View saved wishlist" title="Wishlist">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+            <span class="action-badge" id="wishlistCount">0</span>
+          </button>
+
+          <button id="openCartBtn" class="header-icon-btn with-badge" aria-label="View shopping bag" title="Shopping Bag">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 0 1-8 0" />
+            </svg>
+            <span class="action-badge" id="cartCount">0</span>
+          </button>
+
+          <button id="accountBtn" class="account-pill-btn hide-mobile">
+            <span>Sign In</span>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button
+            id="menuToggle"
+            class="menu-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="siteNav"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Landmark: <main> The Core Narrative -->
+    <main class="site-main">
+      <!-- 1. Editorial Hero Section (Modeled after STYLEO Image 1) -->
+      <section class="hero-section" id="hero" aria-labelledby="heroHeadline">
+        <div class="container hero-grid">
+          <!-- Hero Narrative -->
+          <div class="hero-left">
+            <div class="hero-eyebrow">
+              <span class="eyebrow-pill">CEYLON COUTURE 2026</span>
+              <span class="eyebrow-sub">Modern Tailoring &bull; Colombo</span>
+            </div>
+            <h1 id="heroHeadline" class="hero-headline">
+              Elevate<br />Every Moment
+            </h1>
+            <p class="hero-subtext">
+              Modern style. Timeless confidence. Made for you in Sri Lanka with artisanal Dumbara weaves,
+              pure breathable linens, and ethical Ceylon sapphire accents.
+            </p>
+            <div class="hero-cta-row">
+              <a href="#catalog" class="primary-pill-btn hero-cta">
+                <span>Shop Collection</span>
+                <span class="cta-arrow" aria-hidden="true">&rarr;</span>
+              </a>
+              <a href="#featured" class="ghost-pill-btn hero-secondary-cta">
+                <span>Explore Lookbook</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Architectural Arched Visual with Rotating Badge (FIXED: Badge outside wrapper to prevent clipping) -->
+          <div class="hero-right">
+            <div class="hero-arch-card">
+              <div class="hero-arch-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+                  alt="High fashion tailored blazer collection from STYLEO Ceylon"
+                  class="hero-arch-image"
+                  loading="eager"
+                />
+              </div>
+
+              <!-- Floating Rotating Circular Stamp Badge (Completely visible, never clipped) -->
+              <div class="hero-stamp-badge" aria-hidden="true" title="New Collection 2026">
+                <svg class="stamp-svg" viewBox="0 0 120 120" width="120" height="120">
+                  <defs>
+                    <path id="stampCirclePath" d="M 60, 60 m -44, 0 a 44,44 0 1,1 88,0 a 44,44 0 1,1 -88,0" fill="transparent" />
+                  </defs>
+                  <text class="stamp-text">
+                    <textPath href="#stampCirclePath" startOffset="0%">
+                      &bull; NEW COLLECTION &bull; STYLEO CEYLON
+                    </textPath>
+                  </text>
+                </svg>
+                <span class="stamp-star">&#10022;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Four-Pill Service Strip (Exact STYLEO Ribbon Layout with Real SVG Icons) -->
+      <section class="services-ribbon-section container" aria-label="Customer Services">
+        <div class="services-ribbon">
+          <div class="service-item" id="serviceRatesTrigger" role="button" tabindex="0" title="View Delivery Rates">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="1" y="3" width="15" height="13" />
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                <circle cx="5.5" cy="18.5" r="2.5" />
+                <circle cx="18.5" cy="18.5" r="2.5" />
+              </svg>
+            </div>
+            <div class="service-text">
+              <strong>Free Islandwide Shipping</strong>
+              <small>On all orders over Rs. 8,500 (View Rates)</small>
+            </div>
+          </div>
+
+          <div class="service-item" id="serviceReturnsTrigger" role="button" tabindex="0" title="View Returns Policy">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <polyline points="1 4 1 10 7 10" />
+                <polyline points="23 20 23 14 17 14" />
+                <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15" />
+              </svg>
+            </div>
+            <div class="service-text">
+              <strong>7-Day Easy Returns</strong>
+              <small>Hassle-free exchange policy</small>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
+            </div>
+            <div class="service-text">
+              <strong>Flexible &amp; Secure Payment</strong>
+              <small>Cash on Delivery &amp; Koko Pay in 3</small>
+            </div>
+          </div>
+
+          <div class="service-item" id="serviceWhatsAppTrigger" role="button" tabindex="0" title="Open WhatsApp Help">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.5c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.71 4.3 3.8 2.52 1.09 2.52.73 2.98.69.45-.04 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.23-.19-.48-.31z"/>
+              </svg>
+            </div>
+            <div class="service-text">
+              <strong>Dedicated Concierge</strong>
+              <small>WhatsApp assistance 9am&ndash;9pm</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Mobile Circular Category Avatars (Modeled after STYLEO Mobile Mockup) -->
+      <section class="mobile-category-avatars container hide-desktop" aria-label="Popular Categories">
+        <h2 class="mobile-cat-title">Explore Categories</h2>
+        <div class="avatar-scroller">
+          <button class="avatar-pill-btn active" data-category="all">
+            <div class="avatar-circle all-circle">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+              </svg>
+            </div>
+            <span>All</span>
+          </button>
+          <button class="avatar-pill-btn" data-category="blazers">
+            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=140&q=80" alt="Blazers" class="avatar-circle" />
+            <span>Blazers</span>
+          </button>
+          <button class="avatar-pill-btn" data-category="linen">
+            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=140&q=80" alt="Linen Shirts" class="avatar-circle" />
+            <span>Linen</span>
+          </button>
+          <button class="avatar-pill-btn" data-category="footwear">
+            <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=140&q=80" alt="Footwear" class="avatar-circle" />
+            <span>Footwear</span>
+          </button>
+          <button class="avatar-pill-btn" data-category="bags">
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=140&q=80" alt="Bags" class="avatar-circle" />
+            <span>Bags</span>
+          </button>
+          <button class="avatar-pill-btn" data-category="jewelry">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=140&q=80" alt="Jewelry" class="avatar-circle" />
+            <span>Jewelry</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- 4. Featured Collections (3 Large Cards, exactly like STYLEO Image 1) -->
+      <section class="featured-collection-section container" id="featured" aria-labelledby="featuredHeading">
+        <div class="section-title-row">
+          <h2 id="featuredHeading" class="section-heading">Featured Collection</h2>
+          <a href="#catalog" class="view-all-link">View All Collection &rarr;</a>
+        </div>
+
+        <div class="featured-cards-grid">
+          <!-- Card 1 -->
+          <article class="featured-card">
+            <img
+              src="https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&w=700&q=80"
+              alt="Modern Tailored Blazer in Mocha &amp; Lavender"
+              class="featured-card-img"
+              loading="lazy"
+            />
+            <div class="featured-card-overlay">
+              <span class="card-kicker">Signature Series</span>
+              <h3 class="card-title">Modern<br />Blazer</h3>
+              <a href="#catalog" class="shop-now-pill" data-filter-trigger="blazers">Shop Now</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="featured-card">
+            <img
+              src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80"
+              alt="New Season Arrivals: Handloom &amp; Linen Silhouettes"
+              class="featured-card-img"
+              loading="lazy"
+            />
+            <div class="featured-card-overlay">
+              <span class="card-kicker">Just Dropped</span>
+              <h3 class="card-title">New<br />Arrivals</h3>
+              <a href="#catalog" class="shop-now-pill" data-filter-trigger="all">Shop Now</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="featured-card">
+            <img
+              src="https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=700&q=80"
+              alt="Casual Essentials: Breathable Linen and Resort Wear"
+              class="featured-card-img"
+              loading="lazy"
+            />
+            <div class="featured-card-overlay">
+              <span class="card-kicker">Island Living</span>
+              <h3 class="card-title">Casual<br />Essentials</h3>
+              <a href="#catalog" class="shop-now-pill" data-filter-trigger="linen">Shop Now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 5. New Arrivals / Catalog Section with 2D Macro Layout -->
+      <section class="catalog-section container" id="catalog" aria-labelledby="catalogHeading">
+        <div class="section-title-row">
+          <div>
+            <h2 id="catalogHeading" class="section-heading">New Arrivals</h2>
+            <p id="productCount" class="section-subtext">Showing luxury curated pieces</p>
+          </div>
+          <a href="#catalog" id="viewAllCatalogLink" class="view-all-link">View All &rarr;</a>
+        </div>
+
+        <!-- Controls: Category Tabs & Search -->
+        <div class="catalog-controls-bar">
+          <!-- Filter Tabs (Desktop & Tablet) -->
+          <div class="catalog-filter-tabs hide-mobile-flex">
+            <button class="tab-btn active" data-category="all">All Pieces</button>
+            <button class="tab-btn" data-category="blazers">Blazers &amp; Suiting</button>
+            <button class="tab-btn" data-category="linen">Linen Shirts</button>
+            <button class="tab-btn" data-category="footwear">Footwear</button>
+            <button class="tab-btn" data-category="bags">Leather Bags</button>
+            <button class="tab-btn" data-category="jewelry">Ceylon Sapphire</button>
+          </div>
+
+          <!-- Search & Sort Box (Real SVG Icon) -->
+          <div class="controls-inputs">
+            <div class="search-input-wrap">
+              <svg class="search-icon-svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="Search blazers, shirts, bags..."
+                aria-label="Search items"
+              />
+              <button id="clearSearchBtn" class="clear-search-btn hidden" aria-label="Clear search">✕</button>
+            </div>
+            <select id="sortFilter" class="sort-select" aria-label="Sort products">
+              <option value="featured">Featured Picks</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="rating-desc">Customer Rating</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Macro 2D Floor-Plan: Products Grid + Sticky Sidebar (Slide 6 CSS Grid) -->
+        <div class="catalog-macro-grid">
+          <!-- Products Region -->
+          <div id="productGrid" class="product-cards-grid" role="region" aria-live="polite">
+            <!-- Dynamic product cards rendered by app.js -->
+          </div>
+
+          <!-- Sticky Customer Dashboard & Live Sri Lankan Order Tracker -->
+          <aside class="catalog-sidebar" id="dashboard" aria-label="Customer summary and live orders">
+            <!-- Dashboard Stats Panel -->
+            <div class="sidebar-panel dashboard-panel">
+              <div class="panel-header">
+                <h3>My Order Dashboard</h3>
+                <span class="live-pulse" title="System Live"></span>
+              </div>
+              <div class="metrics-row">
+                <div class="metric-card">
+                  <span class="metric-label">Orders</span>
+                  <strong class="metric-value" id="orderTotal">0</strong>
+                </div>
+                <div class="metric-card">
+                  <span class="metric-label">Total Spend</span>
+                  <strong class="metric-value" id="revenueTotal">Rs. 0</strong>
+                </div>
+                <div class="metric-card">
+                  <span class="metric-label">Saved Items</span>
+                  <strong class="metric-value" id="savedTotal">0</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- Islandwide Order Tracking Panel -->
+            <div class="sidebar-panel tracking-panel">
+              <div class="panel-header">
+                <h3>Live Order Tracking</h3>
+                <span class="tag-pill">Domex / Koombiyo</span>
+              </div>
+              <div id="ordersList" class="orders-feed">
+                <!-- Orders rendered by app.js -->
+              </div>
+            </div>
+
+            <!-- WhatsApp Direct Concierge Card (Real SVG Icon) -->
+            <div class="sidebar-panel concierge-panel">
+              <div class="concierge-top">
+                <div class="wa-badge-svg">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.5c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.71 4.3 3.8 2.52 1.09 2.52.73 2.98.69.45-.04 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.23-.19-.48-.31z"/>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Order via WhatsApp</strong>
+                  <small>Send screenshots or piece titles directly.</small>
+                </div>
+              </div>
+              <button id="openWhatsAppFromCardBtn" class="whatsapp-full-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.5c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.71 4.3 3.8 2.52 1.09 2.52.73 2.98.69.45-.04 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.23-.19-.48-.31z"/>
+                </svg>
+                <span>Chat with Colombo Concierge</span>
+              </button>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- 6. Editorial Promotional Split Banner (Exact STYLEO Image 1 Banner) -->
+      <section class="editorial-banner-section container" aria-label="Editorial Highlight">
+        <div class="editorial-banner-card">
+          <div class="editorial-text-side">
+            <span class="editorial-kicker">HERITAGE MEETS MODERNITY</span>
+            <h2 class="editorial-title">
+              Timeless Looks.<br />Endless Confidence.
+            </h2>
+            <p class="editorial-desc">
+              Discover handcrafted pieces that define your personal presence. Woven on traditional Sri Lankan
+              pit looms and tailored with precision in Colombo.
+            </p>
+            <a href="#catalog" class="editorial-pill-btn">Explore Now</a>
+          </div>
+          <div class="editorial-image-side">
+            <img
+              src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80"
+              alt="Editorial model wearing tailored lavender blazer from STYLEO"
+              class="editorial-banner-img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Curated Essentials / Best Sellers Section (From STYLEO Image 1) -->
+      <section class="bestsellers-section container" id="bestsellers" aria-labelledby="bestsellersHeading">
+        <div class="section-title-row">
+          <h2 id="bestsellersHeading" class="section-heading">Best Sellers</h2>
+          <a href="#catalog" class="view-all-link">View All &rarr;</a>
+        </div>
+
+        <div class="bestsellers-grid">
+          <article class="bestseller-item">
+            <div class="bestseller-img-box">
+              <img
+                src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=360&q=80"
+                alt="Matte Acetate Sunglasses"
+                loading="lazy"
+              />
+            </div>
+            <h4>Matte Acetate Sunglasses</h4>
+            <div class="bestseller-price-row">
+              <strong>Rs. 3,800</strong>
+              <button class="quick-add-sm" data-quick-item="Sunglasses" data-price="3800">+ Add</button>
+            </div>
+          </article>
+
+          <article class="bestseller-item">
+            <div class="bestseller-img-box">
+              <img
+                src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=360&q=80"
+                alt="Minimalist Chronograph Watch"
+                loading="lazy"
+              />
+            </div>
+            <h4>Minimalist Chrono Watch</h4>
+            <div class="bestseller-price-row">
+              <strong>Rs. 9,400</strong>
+              <button class="quick-add-sm" data-quick-item="Watch" data-price="9400">+ Add</button>
+            </div>
+          </article>
+
+          <article class="bestseller-item">
+            <div class="bestseller-img-box">
+              <img
+                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=360&q=80"
+                alt="Organic Raw Cotton Tee"
+                loading="lazy"
+              />
+            </div>
+            <h4>Organic Cotton Crew Tee</h4>
+            <div class="bestseller-price-row">
+              <strong>Rs. 3,200</strong>
+              <button class="quick-add-sm" data-quick-item="Tee" data-price="3200">+ Add</button>
+            </div>
+          </article>
+
+          <article class="bestseller-item">
+            <div class="bestseller-img-box">
+              <img
+                src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=360&q=80"
+                alt="Freshwater Pearl Drop Earrings"
+                loading="lazy"
+              />
+            </div>
+            <h4>Freshwater Pearl Drops</h4>
+            <div class="bestseller-price-row">
+              <strong>Rs. 4,500</strong>
+              <button class="quick-add-sm" data-quick-item="Pearl Earrings" data-price="4500">+ Add</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 8. Newsletter Section (Join Our Style Circle, from STYLEO Image 1) -->
+      <section class="newsletter-section container" aria-labelledby="newsletterHeading">
+        <div class="newsletter-card">
+          <h2 id="newsletterHeading" class="newsletter-title">Join Our Style Circle</h2>
+          <p class="newsletter-desc">
+            Get exclusive offers, new arrival alerts, and Colombo fashion inspiration delivered to your inbox.
+          </p>
+          <form id="newsletterForm" class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Enter your email address..."
+              required
+              aria-label="Email address for newsletter"
+            />
+            <button type="submit" class="newsletter-submit-btn" aria-label="Subscribe to newsletter">
+              &rarr;
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Landmark: <footer> Multi-Column Luxury Footer (with Real SVG Social Icons & Features) -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <!-- Brand Info -->
+        <div class="footer-col brand-col">
+          <div class="footer-logo">
+            <span class="logo-title">STYLEO</span>
+            <span class="logo-sub">CEYLON</span>
+          </div>
+          <p class="footer-bio">
+            Contemporary luxury meets timeless Sri Lankan heritage craft. Tailored in Colombo and delivered
+            door-to-door across all 25 districts of Sri Lanka.
+          </p>
+          <!-- REAL SVG SOCIAL ICONS (Instagram, Facebook, Pinterest, TikTok) -->
+          <div class="footer-social-icons">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Follow STYLEO on Instagram" title="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Follow STYLEO on Facebook" title="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Follow STYLEO on Pinterest" title="Pinterest">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+              </svg>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="Follow STYLEO on TikTok" title="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.68a6.34 6.34 0 0 0 10.86 4.47 6.27 6.27 0 0 0 1.88-4.48V8.78a8.28 8.28 0 0 0 4.85 1.54V6.87a4.8 4.8 0 0 1-1-.18z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Shop Links -->
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul class="footer-links">
+            <li><a href="#catalog">Tailored Blazers</a></li>
+            <li><a href="#catalog">Artisan Linen Shirts</a></li>
+            <li><a href="#catalog">Minimal Sneakers</a></li>
+            <li><a href="#catalog">Leather Handbags</a></li>
+            <li><a href="#catalog">Ceylon Sapphire</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Links -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">About STYLEO</a></li>
+            <li><a href="#hero">Our Colombo Atelier</a></li>
+            <li><a href="#hero">Dumbara Weavers</a></li>
+            <li><a href="#hero">Sustainability</a></li>
+            <li><a href="#hero">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Help & Delivery (Interactive Modal Triggers) -->
+        <div class="footer-col">
+          <h4>Help &amp; Delivery</h4>
+          <ul class="footer-links">
+            <li><a href="#dashboard">Track Order</a></li>
+            <li><button class="footer-modal-btn" id="openWhatsAppFooterBtn">WhatsApp Support</button></li>
+            <li><button class="footer-modal-btn" id="openRatesFooterBtn">Islandwide Courier Rates</button></li>
+            <li><button class="footer-modal-btn" id="openReturnsFooterBtn">Returns &amp; Exchanges</button></li>
+            <li><button class="footer-modal-btn" id="openFaqFooterBtn">FAQs</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom-bar">
+        <p>&copy; 2026 STYLEO Ceylon (Pvt) Ltd. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Overlay Backdrop -->
+    <div id="backdrop" class="backdrop hidden" aria-hidden="true"></div>
+
+    <!-- Sliding Shopping Bag Drawer -->
+    <aside id="cartDrawer" class="drawer" aria-labelledby="cartDrawerTitle" role="dialog" aria-modal="true">
+      <div class="drawer-header">
+        <div class="drawer-title-group">
+          <h3 id="cartDrawerTitle">Your Bag</h3>
+          <span class="drawer-count-badge" id="drawerItemCount">0 items</span>
+        </div>
+        <button id="closeCartBtn" class="close-icon-btn" aria-label="Close cart drawer">&times;</button>
+      </div>
+
+      <div class="free-shipping-progress-box">
+        <p class="progress-text" id="freeShippingText">Free shipping on orders over Rs. 8,500</p>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="shippingProgressBar" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div id="cartItems" class="drawer-body" role="region" aria-live="polite">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="drawer-footer">
+        <div class="drawer-total-row">
+          <span>Subtotal</span>
+          <strong id="cartTotal">Rs. 0</strong>
+        </div>
+        <p class="tax-note">Taxes and free islandwide shipping calculated at checkout</p>
+        <button id="checkoutBtn" class="primary-pill-btn full-width">Proceed to Checkout</button>
+        <button id="continueShoppingBtn" class="ghost-pill-btn full-width mt-2">Continue Shopping</button>
+      </div>
+    </aside>
+
+    <!-- Sri Lankan Checkout Modal (Real SVG Payment Icons) -->
+    <div
+      id="checkoutModal"
+      class="modal hidden"
+      role="dialog"
+      aria-labelledby="checkoutModalTitle"
+      aria-modal="true"
+    >
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <h3 id="checkoutModalTitle">Complete Your Delivery Order</h3>
+            <p class="modal-subtitle">Islandwide Express Courier (Domex &bull; Koombiyo)</p>
+          </div>
+          <button id="closeCheckoutBtn" class="close-icon-btn" aria-label="Close checkout">&times;</button>
+        </div>
+
+        <form id="checkoutForm" class="checkout-form">
+          <div class="form-group">
+            <label for="custName">Full Name *</label>
+            <input
+              id="custName"
+              type="text"
+              name="name"
+              placeholder="e.g. Maya Fernando"
+              required
+              autocomplete="name"
+            />
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="custPhone">Mobile / WhatsApp Number *</label>
+              <input
+                id="custPhone"
+                type="tel"
+                name="phone"
+                placeholder="e.g. 077 123 4567"
+                required
+                autocomplete="tel"
+              />
+            </div>
+            <div class="form-group">
+              <label for="custEmail">Email Address</label>
+              <input
+                id="custEmail"
+                type="email"
+                name="email"
+                placeholder="e.g. maya@example.com"
+                autocomplete="email"
+              />
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="custDistrict">Delivery District *</label>
+              <select id="custDistrict" name="district" required>
+                <option value="" disabled selected>Select District</option>
+                <option value="Colombo 1-15">Colombo 1–15 (Next Day)</option>
+                <option value="Colombo Suburbs">Colombo Suburbs (24–48h)</option>
+                <option value="Gampaha">Gampaha</option>
+                <option value="Kandy">Kandy</option>
+                <option value="Galle">Galle</option>
+                <option value="Kalutara">Kalutara</option>
+                <option value="Kurunegala">Kurunegala</option>
+                <option value="Matara">Matara</option>
+                <option value="Jaffna">Jaffna</option>
+                <option value="Other Outstation">Other Outstation Islandwide</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="custCity">City / Town *</label>
+              <input id="custCity" type="text" name="city" placeholder="e.g. Nugegoda / Kandy" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="custAddress">Street Address *</label>
+            <input
+              id="custAddress"
+              type="text"
+              name="address"
+              placeholder="House/Apartment No, Street Name"
+              required
+              autocomplete="street-address"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="custPayment">Payment Option *</label>
+            <select id="custPayment" name="paymentMethod" required>
+              <option value="Cash on Delivery (COD)">Cash on Delivery (COD) - Pay upon doorstep arrival</option>
+              <option value="Koko Pay in 3">Koko: Pay in 3 Interest-Free Installments</option>
+              <option value="Bank Transfer">Direct Bank Transfer (Commercial Bank / Sampath Bank)</option>
+              <option value="Credit / Debit Card">Visa / Mastercard</option>
+            </select>
+          </div>
+
+          <div class="order-summary-box">
+            <div class="summary-line">
+              <span>Total Payable:</span>
+              <strong id="modalCheckoutTotal">Rs. 0</strong>
+            </div>
+            <small class="summary-note">Islandwide Courier: Free &bull; Order receipt sent via SMS / WhatsApp</small>
+          </div>
+
+          <div class="modal-actions-row">
+            <button type="button" id="cancelCheckoutBtn" class="ghost-pill-btn">Cancel</button>
+            <button type="submit" class="primary-pill-btn">Confirm Order</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sign In Modal (Simple, Clean & Responsive) -->
+    <div id="accountModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="accountModalTitle">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <h3 id="accountModalTitle">Sign In</h3>
+            <p id="accountModalSubtitle" class="modal-subtitle">Sign in to add items to your bag, track orders, and view wishlist</p>
+          </div>
+          <button id="closeAccountBtn" class="close-icon-btn" aria-label="Close dialog">&times;</button>
+        </div>
+
+        <!-- Logged Out: Simple Clean Form -->
+        <div id="authContentLoggedOut">
+          <form id="accountForm" class="checkout-form">
+            <div class="form-group">
+              <label for="accEmail">Email or Mobile Number</label>
+              <input
+                id="accEmail"
+                type="text"
+                name="email"
+                placeholder="0771234567 or email@domain.com"
+                required
+                autocomplete="username"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="accPass">Password</label>
+              <input
+                id="accPass"
+                type="password"
+                name="password"
+                placeholder="••••••••"
+                required
+                autocomplete="current-password"
+              />
+            </div>
+
+            <button type="submit" id="authSubmitBtn" class="primary-pill-btn full-width mt-2">Sign In</button>
+          </form>
+        </div>
+
+        <!-- Logged In: Simple Account Info & Sign Out -->
+        <div id="authContentLoggedIn" class="hidden" style="text-align: center; padding: 16px 8px 8px;">
+          <div style="width: 54px; height: 54px; margin: 0 auto 12px; border-radius: 50%; background: var(--dark-luxury); color: #FFFFFF; font-size: 1.4rem; font-weight: 700; display: grid; place-items: center;" id="profileAvatarInitial">
+            M
+          </div>
+          <h4 id="profileDisplayName" style="margin-bottom: 4px;">Member</h4>
+          <p id="profileDisplayEmail" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">member@example.com</p>
+          <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+            <button type="button" id="profileTrackOrdersBtn" class="ghost-pill-btn" style="flex: 1; min-width: 140px;">Track Orders</button>
+            <button type="button" id="profileSignOutBtn" class="primary-pill-btn" style="flex: 1; min-width: 140px; background: var(--mocha-dark);">Sign Out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURE 1: Interactive Islandwide Courier Rates Modal -->
+    <div id="ratesModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="ratesModalTitle">
+      <div class="modal-card modal-wide">
+        <div class="modal-header">
+          <div>
+            <h3 id="ratesModalTitle">Islandwide Delivery Rates &amp; Timelines</h3>
+            <p class="modal-subtitle">Partnered with Domex &bull; Koombiyo Express &bull; PromptX</p>
+          </div>
+          <button id="closeRatesBtn" class="close-icon-btn" aria-label="Close delivery rates">&times;</button>
+        </div>
+
+        <div class="modal-feature-content">
+          <div class="rates-banner">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <span><strong>Free Delivery Privilege:</strong> All orders above Rs. 8,500 enjoy 100% Free Doorstep Delivery islandwide!</span>
+          </div>
+
+          <div class="rates-table-wrap">
+            <table class="rates-table">
+              <thead>
+                <tr>
+                  <th>Destination Region</th>
+                  <th>Estimated Delivery</th>
+                  <th>Standard Rate</th>
+                  <th>Orders &gt; Rs. 8,500</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Colombo 1–15 &amp; Inner Suburbs</strong></td>
+                  <td>Next Day (24 Hours)</td>
+                  <td>Rs. 350</td>
+                  <td><span class="free-tag">FREE</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Greater Western (Gampaha, Negombo, Kalutara)</strong></td>
+                  <td>24–48 Hours</td>
+                  <td>Rs. 400</td>
+                  <td><span class="free-tag">FREE</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Central &amp; Southern (Kandy, Galle, Matara, Kurunegala)</strong></td>
+                  <td>48 Hours</td>
+                  <td>Rs. 450</td>
+                  <td><span class="free-tag">FREE</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Northern, Eastern &amp; Uva (Jaffna, Anuradhapura, Badulla)</strong></td>
+                  <td>2–3 Business Days</td>
+                  <td>Rs. 500</td>
+                  <td><span class="free-tag">FREE</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="rates-perks-grid">
+            <div class="perk-box">
+              <div class="perk-icon-svg">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="6" width="20" height="12" rx="2"/>
+                  <circle cx="12" cy="12" r="2"/>
+                  <path d="M6 12h.01M18 12h.01"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Cash on Delivery (COD)</strong>
+                <small>Available in 100% of Sri Lankan postal codes with no surcharge.</small>
+              </div>
+            </div>
+            <div class="perk-box">
+              <div class="perk-icon-svg">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                  <line x1="12" y1="18" x2="12.01" y2="18"/>
+                </svg>
+              </div>
+              <div>
+                <strong>SMS &amp; WhatsApp Live Tracking</strong>
+                <small>Instant tracking link sent as soon as your parcel leaves our Colombo atelier.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURE 2: Interactive 7-Day Easy Returns & Exchanges Modal -->
+    <div id="returnsModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="returnsModalTitle">
+      <div class="modal-card modal-wide">
+        <div class="modal-header">
+          <div>
+            <h3 id="returnsModalTitle">7-Day Easy Returns &amp; Exchanges</h3>
+            <p class="modal-subtitle">We guarantee your complete satisfaction with every piece.</p>
+          </div>
+          <button id="closeReturnsBtn" class="close-icon-btn" aria-label="Close returns policy">&times;</button>
+        </div>
+
+        <div class="modal-feature-content">
+          <div class="exchange-steps-grid">
+            <div class="step-card">
+              <span class="step-badge">Step 1</span>
+              <h4>Request Exchange</h4>
+              <p>WhatsApp our concierge at <strong>+94 77 123 4567</strong> or email support within 7 days of delivery with your order ID.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-badge">Step 2</span>
+              <h4>Doorstep Courier Pickup</h4>
+              <p>Our courier partner will visit your address anywhere in Sri Lanka to collect the return parcel.</p>
+            </div>
+            <div class="step-card">
+              <span class="step-badge">Step 3</span>
+              <h4>Replacement Dispatched</h4>
+              <p>Your replacement size or store credit voucher is processed immediately upon inspection.</p>
+            </div>
+          </div>
+
+          <div class="conditions-box">
+            <h4>Simple Exchange Guidelines:</h4>
+            <ul>
+              <li>&bull; Items must be unworn, unwashed, and have original designer tags attached.</li>
+              <li>&bull; Footwear must be tested indoors on clean surfaces with zero scuffing.</li>
+              <li>&bull; Handloom and silk pieces must be returned in their protective dust bag.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURE 3: Interactive FAQs Modal -->
+    <div id="faqModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="faqModalTitle">
+      <div class="modal-card modal-wide">
+        <div class="modal-header">
+          <div>
+            <h3 id="faqModalTitle">Frequently Asked Questions</h3>
+            <p class="modal-subtitle">Everything you need to know about shopping with STYLEO Ceylon</p>
+          </div>
+          <button id="closeFaqBtn" class="close-icon-btn" aria-label="Close FAQs">&times;</button>
+        </div>
+
+        <div class="modal-feature-content">
+          <div class="faq-accordion-list">
+            <!-- FAQ 1 -->
+            <div class="faq-item">
+              <button class="faq-question-btn">
+                <span>How does Cash on Delivery (COD) work?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p>You can complete your order without making any online payment. When our courier partner (Domex or Koombiyo) delivers the package to your doorstep, you inspect the security seal and hand the cash directly to the courier.</p>
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item">
+              <button class="faq-question-btn">
+                <span>How does Koko: Pay in 3 Installments work?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p>Select Koko at checkout. You pay only 1/3 of the total bill today using any Visa or Mastercard debit/credit card. The remaining 2 payments are automatically charged over the next 2 months with zero interest and no extra fees.</p>
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item">
+              <button class="faq-question-btn">
+                <span>How can I track my order live?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p>Every order generates a live tracking ID (e.g. <code>DOMEX-LK-89421</code>) visible right inside your on-screen <strong>My Order Dashboard</strong>. You will also receive automatic SMS updates at dispatch and out-for-delivery stages.</p>
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item">
+              <button class="faq-question-btn">
+                <span>Are your fabrics authentic Sri Lankan handloom and silk?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p>Yes, 100%. Our tailored blazers, linen resort wear, and kimonos are tailored in our Colombo atelier utilizing authentic handloom weaves sourced directly from master weaving cottages in Dumbara and Southern Sri Lanka.</p>
+              </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="faq-item">
+              <button class="faq-question-btn">
+                <span>Can I place an order directly on WhatsApp?</span>
+                <span class="faq-toggle-icon">+</span>
+              </button>
+              <div class="faq-answer-panel">
+                <p>Yes! Simply message us at <strong>+94 77 123 4567</strong> or click any "Order via WhatsApp" button on this site. Our concierge team is available 9:00 AM &ndash; 9:00 PM to take your order instantly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURE 4: Interactive WhatsApp Concierge Modal (Real SVG Icons) -->
+    <div id="whatsappModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="waModalTitle">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div class="wa-header-flex">
+            <div class="wa-modal-icon-svg">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.5c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.71 4.3 3.8 2.52 1.09 2.52.73 2.98.69.45-.04 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.23-.19-.48-.31z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 id="waModalTitle">STYLEO Colombo Concierge</h3>
+              <p class="modal-subtitle">Official WhatsApp Support &bull; <span class="wa-online-dot"></span> Live Now</p>
+            </div>
+          </div>
+          <button id="closeWhatsAppBtn" class="close-icon-btn" aria-label="Close WhatsApp dialog">&times;</button>
+        </div>
+
+        <div class="modal-feature-content">
+          <p style="font-size: 0.92rem; margin-bottom: 16px;">
+            Connect directly with our Colombo stylist and order support team. Typical response time is <strong>under 5 minutes</strong>.
+          </p>
+
+          <div class="wa-quick-options">
+            <a
+              href="https://wa.me/94771234567?text=Hello%20STYLEO,%20I%20would%20like%20to%20place%20an%20order."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="wa-option-card"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <path d="M16 10a4 4 0 0 1-8 0" />
+              </svg>
+              <div>
+                <strong>Place a New Order</strong>
+                <small>Send screenshot or title of the piece</small>
+              </div>
+              <span class="wa-arrow">&rarr;</span>
+            </a>
+
+            <a
+              href="https://wa.me/94771234567?text=Hello%20STYLEO,%20I%20need%20help%20tracking%20my%20delivery."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="wa-option-card"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13" />
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                <circle cx="5.5" cy="18.5" r="2.5" />
+                <circle cx="18.5" cy="18.5" r="2.5" />
+              </svg>
+              <div>
+                <strong>Track My Delivery</strong>
+                <small>Check Domex/Koombiyo courier status</small>
+              </div>
+              <span class="wa-arrow">&rarr;</span>
+            </a>
+
+            <a
+              href="https://wa.me/94771234567?text=Hello%20STYLEO,%20I%20would%20like%20sizing%20advice%20for%20a%20blazer."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="wa-option-card"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="21" y1="10" x2="3" y2="10" />
+                <line x1="21" y1="6" x2="3" y2="6" />
+                <line x1="21" y1="14" x2="3" y2="14" />
+                <line x1="21" y1="18" x2="3" y2="18" />
+              </svg>
+              <div>
+                <strong>Sizing &amp; Styling Advice</strong>
+                <small>Get custom measurements advice</small>
+              </div>
+              <span class="wa-arrow">&rarr;</span>
+            </a>
+          </div>
+
+          <a
+            href="https://wa.me/94771234567?text=Hello%20STYLEO%20Ceylon!"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="whatsapp-full-btn mt-2"
+          >
+            Launch WhatsApp (+94 77 123 4567)
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toastContainer" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "styleo-fullstack-unified",
+  "version": "1.0.0",
+  "description": "STYLEO Ceylon - Project 4: Full-Stack Frontend & Backend Integration (Unified System)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "seed": "node server/database/seed.js"
+  },
+  "keywords": [
+    "fullstack",
+    "frontend",
+    "backend",
+    "mysql",
+    "express",
+    "async-await",
+    "fetch",
+    "project-4"
+  ],
+  "author": "M. Reezma Hanan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
