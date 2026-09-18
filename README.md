@@ -1,5 +1,5 @@
-# STYLEO Ceylon — Unified Full-Stack E-Commerce Web Application
-### Project 4: Full-Stack Frontend & Backend Integration ("The Unified System")
+# STYLEO Ceylon — Full-Stack E-Commerce Web Application
+### Modern 3-Tier Web Application (Node.js · Express · MySQL 8 · Vanilla JavaScript)
 
 ---
 
@@ -7,46 +7,11 @@
 
 **STYLEO Ceylon** is a high-performance, responsive e-commerce web platform designed for premium fashion, apparel, footwear, artisanal bags, and gemstones in Sri Lanka. 
 
-Prior to this phase, the application tiers were developed independently as educational milestones:
-* **Project 1 (The Sensory Interface):** Responsive, mobile-first frontend user interface built with semantic HTML5 and modern CSS3.
-* **Project 2 (The Nervous System):** Express.js RESTful API handling HTTP routing, request parsing, and business logic validation.
-* **Project 3 (The Cognitive Vault):** Relational MySQL database schema ensuring ACID transactional persistence, relational integrity, and normalization.
-
-**Project 4 represents the Full-Stack Mastery Phase ("The Unified System").** It unites all three isolated tiers into a cohesive, production-grade web application. The single-page JavaScript frontend communicates asynchronously with the Express backend using modern `async / await` and native `fetch()` calls, persisting orders and customer information into a live MySQL relational database with ACID guarantees.
+Built with a modern 3-tier architecture, STYLEO Ceylon unites an interactive single-page JavaScript frontend, an Express.js RESTful API, and a robust MySQL 8 relational database into a cohesive, production-grade web application. The frontend communicates asynchronously with the backend using modern `async / await` and native `fetch()` calls, persisting orders, items, and customer information with ACID transactional guarantees.
 
 ---
 
-## 🏛️ 2. The 4-Stage Progressive Development Journey
-
-```text
-┌───────────────────────────┐      ┌───────────────────────────┐
-│  PROJECT 1: "THE SKIN"    │      │  PROJECT 2: "THE NERVES"  │
-│  - Semantic HTML5 Markup  │      │  - Node.js & Express.js   │
-│  - Responsive CSS3 Layout │      │  - RESTful API Endpoints  │
-│  - Interactive DOM Events │      │  - Validation Middleware  │
-└─────────────┬─────────────┘      └─────────────┬─────────────┘
-              │                                  │
-              └─────────────────┬────────────────┘
-                                │
-                   ┌────────────▼──────────────┐
-                   │   PROJECT 3: "THE VAULT"  │
-                   │   - Relational MySQL 8    │
-                   │   - Normalized Schema DDL │
-                   │   - Foreign Key Cascades  │
-                   └────────────┬──────────────┘
-                                │
-     ╔══════════════════════════▼══════════════════════════╗
-     ║        PROJECT 4: "THE UNIFIED LIVING SYSTEM"       ║
-     ║  - Seamless Asynchronous fetch() & async/await      ║
-     ║  - Express Serves Both Frontend & REST API Server   ║
-     ║  - ACID Transactional Checkout & Order Tracking     ║
-     ║  - Auto-Schema Initialization & Self-Seeding DB     ║
-     ╚═════════════════════════════════════════════════════╝
-```
-
----
-
-## 📐 3. System Architecture & Input-Process-Output (I-P-O) Flow
+## 📐 2. System Architecture & Input-Process-Output (I-P-O) Flow
 
 The application follows a standard **3-Tier Client-Server-Database Architecture**:
 
@@ -74,7 +39,7 @@ The application follows a standard **3-Tier Client-Server-Database Architecture*
 
 ---
 
-## 🗄️ 4. Relational Database Design (MySQL 8)
+## 🗄️ 3. Relational Database Design (MySQL 8)
 
 The relational schema strictly satisfies **Third Normal Form (3NF)**, avoiding data redundancy and update anomalies.
 
@@ -94,7 +59,7 @@ When the Express application boots, `initDatabase()` automatically executes `CRE
 
 ---
 
-## 📡 5. RESTful API Endpoint Specification
+## 📡 4. RESTful API Endpoint Specification
 
 All endpoints follow strict REST conventions: **Resources are Nouns**, **HTTP Methods are Verbs**, and responses are standardized JSON payloads.
 
@@ -113,7 +78,7 @@ All endpoints follow strict REST conventions: **Resources are Nouns**, **HTTP Me
 
 ---
 
-## 💻 6. Frontend Engine Architecture (`client/app.js`)
+## 💻 5. Frontend Engine Architecture (`client/app.js`)
 
 The client application is built with modern, dependency-free **Vanilla JavaScript (ES6+)**:
 
@@ -125,7 +90,7 @@ The client application is built with modern, dependency-free **Vanilla JavaScrip
 
 ---
 
-## 🛡️ 7. Senior Engineering & Security Patterns
+## 🛡️ 6. Senior Engineering & Security Patterns
 
 1. **Defense Against SQL Injection (Parameterized Queries):**
    * Raw user inputs are **never** concatenated directly into SQL strings.
@@ -141,10 +106,10 @@ The client application is built with modern, dependency-free **Vanilla JavaScrip
 
 ---
 
-## 📂 8. Project File Structure
+## 📂 7. Project File Structure
 
 ```text
-Project 4/
+styleo-ceylon/
 ├── client/                              # Presentation Tier (Frontend)
 │   ├── index.html                       # Semantic HTML5 UI layout
 │   ├── style.css                        # Modern responsive CSS3 styling
@@ -172,7 +137,7 @@ Project 4/
 
 ---
 
-## 🚀 9. Step-by-Step Installation & Local Setup
+## 🚀 8. Step-by-Step Installation & Local Setup
 
 ### Prerequisites
 * **Node.js:** v18.0.0 or higher
@@ -218,7 +183,7 @@ npm start
 
 ---
 
-## ☁️ 10. Cloud Deployment (Railway.app)
+## ☁️ 9. Cloud Deployment (Railway.app)
 
 The project is pre-configured for automated CI/CD deployment on **[Railway.app](https://railway.com)**:
 
@@ -235,7 +200,7 @@ The project is pre-configured for automated CI/CD deployment on **[Railway.app](
 
 ---
 
-## 🧪 11. Testing & Quality Assurance Verification
+## 🧪 10. Testing & Quality Assurance Verification
 
 | Test ID | Test Scenario | Input Data | Expected Output | Status |
 | :--- | :--- | :--- | :--- | :--- |
@@ -248,7 +213,7 @@ The project is pre-configured for automated CI/CD deployment on **[Railway.app](
 
 ---
 
-## 🎓 12. Key Learning Outcomes & Competencies Demonstrated
+## 🎓 11. Key Learning Outcomes & Competencies Demonstrated
 
 * **Architectural Unification:** Successfully converged disparate frontend, API, and relational database modules into a cohesive full-stack web application.
 * **ACID Transaction Management:** Implemented atomic database transactions (`BEGIN`, `COMMIT`, `ROLLBACK`) across multi-table relationships to ensure zero data corruption during checkout.
