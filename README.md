@@ -145,8 +145,8 @@ styleo-ceylon/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/reezmahanan/Project-04.git
-cd Project-04
+git clone https://github.com/reezmahanan/STYLEO-Ceylon.git
+cd STYLEO-Ceylon
 ```
 
 ### 2. Install Dependencies
@@ -187,9 +187,9 @@ npm start
 
 The project is pre-configured for automated CI/CD deployment on **[Railway.app](https://railway.com)**:
 
-1. **Deploy Repository:** Connect `reezmahanan/Project-04` on Railway.
+1. **Deploy Repository:** Connect `reezmahanan/STYLEO-Ceylon` on Railway.
 2. **Provision MySQL:** Add a MySQL database service inside the Railway project.
-3. **Link Variables:** Under the `Project-04` service ➔ **Variables** tab, map:
+3. **Link Variables:** Under the `STYLEO-Ceylon` service ➔ **Variables** tab, map:
    * `DB_HOST` = `${{MySQL.MYSQLHOST}}`
    * `DB_PORT` = `${{MySQL.MYSQLPORT}}`
    * `DB_USER` = `${{MySQL.MYSQLUSER}}`

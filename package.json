@@ -1,7 +1,7 @@
 {
-  "name": "styleo-fullstack-unified",
+  "name": "styleo-ceylon",
   "version": "1.0.0",
-  "description": "STYLEO Ceylon - Project 4: Full-Stack Frontend & Backend Integration (Unified System)",
+  "description": "STYLEO Ceylon - Full-Stack E-Commerce Web Application",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -10,13 +10,13 @@
   },
   "keywords": [
     "fullstack",
+    "ecommerce",
     "frontend",
     "backend",
     "mysql",
     "express",
     "async-await",
-    "fetch",
-    "project-4"
+    "fetch"
   ],
   "author": "M. Reezma Hanan",
   "license": "ISC",
