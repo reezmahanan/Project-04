@@ -1,12 +1,5 @@
 # Project 4: Frontend & Backend Integration (STYLEO Ceylon)
 
-### Student Information
-- **Name:** M. Reezma Hanan
-- **Module:** IT2308 - Web Application Development (Project 4: Full-Stack Integration)
-- **GitHub Repository:** [https://github.com/reezmahanan/Project-04](https://github.com/reezmahanan/Project-04)
-
----
-
 ## 📌 Project Overview
 This project is the **Full-Stack Mastery Phase ("The Unified System")** for the **STYLEO Ceylon** e-commerce platform.
 
