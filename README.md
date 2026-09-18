@@ -3,21 +3,7 @@
 
 ---
 
-## 👨‍🎓 Student & Module Information
-
-| Field | Details |
-| :--- | :--- |
-| **Student Name** | **M. Reezma Hanan** |
-| **Module Code & Title** | **IT2308 — Web Application Development** |
-| **Assessment Title** | **Project 4: Full-Stack Integration (Final Capstone Phase)** |
-| **Academic Specialization** | **BSc (Hons) in Information Technology / Software Engineering** |
-| **GitHub Repository** | [https://github.com/reezmahanan/Project-04](https://github.com/reezmahanan/Project-04) |
-| **Application Architecture** | **3-Tier Full-Stack (Vanilla JS Client + Node/Express API + MySQL 8 Database)** |
-| **Local Runtime Port** | `http://localhost:5000` |
-
----
-
-## 📌 1. Executive Project Summary
+## 📌 1. Executive Project Overview
 
 **STYLEO Ceylon** is a high-performance, responsive e-commerce web platform designed for premium fashion, apparel, footwear, artisanal bags, and gemstones in Sri Lanka. 
 
@@ -269,15 +255,6 @@ The project is pre-configured for automated CI/CD deployment on **[Railway.app](
 * **Asynchronous Web Programming:** Mastered `async / await` and native `fetch()` for non-blocking UI rendering and clean network communication.
 * **API Security Standards:** Applied the "Never Trust the Client" paradigm through parameterized prepared queries, server-side data validation, and sanitized JSON responses.
 * **DevOps & Cloud Deployment:** Configured environment isolation and automated CI/CD deployment pipelines on Railway.app.
-
----
-
-## 👤 Author & Acknowledgements
-
-* **Developer:** M. Reezma Hanan
-* **GitHub Profile:** [@reezmahanan](https://github.com/reezmahanan)
-* **Institution:** Department of Information Technology & Computing
-* **Coursework:** IT2308 Web Application Development — DecodeLabs Industrial Project Series
 
 ---
 *STYLEO Ceylon © 2026. All rights reserved.*
